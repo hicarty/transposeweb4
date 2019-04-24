@@ -1,0 +1,248 @@
+﻿@import '_variables.scss';
+
+/*.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}*/
+
+//Cookie Consent
+/*#cookieConsent {
+    visibility: hidden;
+    position: absolute;
+
+    .collapse:not(.show) {
+        display: none;
+    }
+}
+
+#footer {
+    background-color: $color-black;
+    height: 165px;
+}*/
+
+/*#socket {
+    position: relative;
+
+    .dash-t {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 1450px;
+        margin-right: $spacing-45;
+    }
+
+    .logo-container {
+        position: absolute;
+        padding: ($spacing-15 + $spacing-5);
+        bottom: 0;
+        left: 0;
+    }
+}*/
+
+#transpose-logo {
+    color: $color-white;
+    display: block;
+    //max-width: 182.71px;
+    padding-top: calc(15px + 0.5rem);
+    padding-bottom: calc(15px + 0.5rem);
+    padding-left: calc(15px + 1rem);
+    padding-right: calc(15px + 1rem);
+    z-index: 99;
+}
+
+#transpose-logo-mobile {
+    display: none;
+}
+
+/*.navbar {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    //Logo
+    .transpose-logo-container {
+        margin: $spacing-15;
+        background-color: $color-black;
+
+        #transpose-logo-mobile {
+            height: $spacing-45;
+        }
+    }
+
+    > .container, > .container-fluid { //Cookie Consent
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .transpose-title {
+        display: inline-block;
+        opacity: 0;
+        transition: width ease-out 2s, opacity ease-out 2s;
+        width: 0;
+
+        &.top-section {
+            display: inline;
+            opacity: 1;
+            width: 100%;
+        }
+    }
+}*/
+
+/*.navbar-brand {
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-header {
+    padding: $spacing-15;
+
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+}*/
+//Menu
+/*.navbar-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end space-around;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}*/
+
+/*ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+#transpose-nav-collapse {
+    padding: $spacing-15;
+}
+
+#tr-right-nav {
+    background-color: rgba(0, 0, 0, 0.40);
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    a:focus {
+        background-color: rgba(255, 255, 255, 0.00);
+        text-decoration: underline;
+        color: white;
+    }
+
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.00);
+        text-decoration: underline;
+        color: white;
+    }
+
+    a:active {
+        background-color: rgba(255, 255, 255, 0.00);
+        text-decoration: underline;
+        color: white;
+    }
+
+    a:visited {
+        background-color: rgba(255, 255, 255, 0.00);
+        text-decoration: underline;
+        color: white;
+    }
+}
+
+#transpose-right-menu {
+    padding: $spacing-15;
+    background-color: rgba(0, 0, 0, 0.47);
+    //border-bottom: 5px #ff00b1 solid;
+    a {
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:focus {
+        text-decoration: underline;
+    }
+
+    a:active {
+        text-decoration: underline;
+    }
+
+    .active {
+        text-decoration: underline;
+    }
+}
+
+.border-menu-bottom {
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ff00b1, #9c10fd) 1;
+}
+
+#navbarKebabOverlay {
+    visibility: hidden;
+    position: fixed;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+
+    .navbar-exit {
+        height: 30px;
+        max-width: 45px;
+        font-family: $font-Campton-Medium;
+        font-size: 2rem;
+        color: $color-white;
+        position: absolute;
+        right: 25px;
+        top: 15px;
+        opacity: 0.3;
+    }
+
+    ul#transpose-kebab-menu {
+        margin: $spacing-45;
+        list-style-type: none;
+
+        li {
+            color: $color-white;
+
+            .nav-link {
+                font-size: 2rem;
+            }
+        }
+    }
+}*/

@@ -1,0 +1,55 @@
+﻿
+<nav class="navbar navbar-expand-md fixed-top">
+    <div data-menuanchor="HomeSection">
+        <a class="logo-container" href="#HomeSection">
+            @*<img class="transpose-logo-mobile" src="~/img/transpose-logo-mobile.gif" alt="logo-mobile">*@
+            <div class="transpose-logo">
+                transpose<span class="logo-parenthesis">(</span><span id="navbar-section-title"></span><span class="logo-parenthesis">)</span><span>;</span>
+            </div>
+        </a>
+    </div>
+    <div class="mobile-nav-overlay">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavMenu" aria-controls="NavMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="~/img/menu-kebab.svg" />
+        </button>
+    </div>
+
+
+
+    <div id="NavMenu" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav menu">
+            <li class="nav-item" data-menuanchor="ProjectsSection">
+                <a class="nav-link" href="#ProjectSection" id="projects-link">projects.</a>
+            </li>
+            <li class="nav-item" data-menuanchor="AboutSection">
+                <a class="nav-link" href="#AboutSection" id="about-link">about.</a>
+            </li>
+            <li class="nav-item" data-menuanchor="JoinUsSection">
+                <a class="nav-link" href="#JoinUsSection" id="contact-link">join us.</a>
+            </li>
+            <li class="nav-item" data-menuanchor="ContactSection">
+                <a class="nav-link" href="#ContactSection" id="join-link">contact.</a>
+            </li>
+        </ul>
+    </div>
+
+    @*<div id="NavMobileMenu">
+            <ul class="kebab-nav kebab-menu" id="transpose-kebab-menu">
+               <a class="navbar-exit">x</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ProjectsSection" id="ProjectsLink">projects.</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#AboutSection" id="AboutLink">about.</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ContactSection" id="ContactLink">contact.</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#joinUsSection" id="JoinUsLink">join us.</a>
+                </li>
+            </ul>
+        </div>*@
+
+</nav>

@@ -1,0 +1,114 @@
+﻿@import '_variables.scss';
+
+
+.navbar-toggler {
+    margin-top: 14px !important;
+    /*z-index: 2000;*/
+    &:focus {
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+}
+
+.navbar {
+
+    .mobile-nav-overlay {
+        z-index: -5;
+        visibility: hidden;
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.2);
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+        display: inline-flex;
+        justify-content: flex-end;
+
+        @media (max-width: 767px) {
+            visibility: visible;
+        }
+
+        .navbar-toggler {
+            margin-top: 0 !important;
+            /*z-index: 2000;*/
+            &:focus {
+                outline: 0 !important;
+                box-shadow: none !important;
+            }
+        }
+    }
+
+
+    .transpose-logo {
+        display: block;
+        top: 8px;
+        left: 15px;
+        padding: 5px 20px;
+        position: fixed;
+        color: #fff;
+        font-family: "Campton-Medium", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.6;
+        background-color: #202020;
+
+        > .logo-parenthesis {
+            color: $color-green;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 1.7rem;
+            line-height: 1.9;
+        }
+        /*@media (max-width: 767px) {
+                top: 20px;
+                left: 20px;
+        }*/
+        /*@media screen and (max-width: 640px) {
+            display: none;
+        }*/
+    }
+
+    /*.transpose-logo-mobile {
+        display: none;
+        height: 45px;
+
+        @media (max-width: 640px) {
+            display: block;
+        }
+    }*/
+
+    .navbar-nav {
+
+        &.menu {
+            border-width: 0 0 3px 0;
+            border-style: solid;
+            border-image: linear-gradient(to right, #00fb00, #008000) 1;
+            padding: 0 10px;
+            background-color: rgba(0, 0, 0, 0.47);
+
+            .nav-item {
+                .nav-link {
+                    color: #fff;
+
+                    &:hover, &:focus, &:active {
+                        text-decoration: underline;
+                        text-decoration-color: #00fb00;
+                    }
+
+                    @media (max-width: 992px) {
+                        font-size: 1.5rem;
+                        line-height: 1.6;
+                    }
+                }
+            }
+
+            @media (max-width: 767px) {
+                // border: none;
+                /*background-color: transparent;*/
+            }
+        }
+    }
+}
